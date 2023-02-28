@@ -6,8 +6,10 @@ public class Main{
 
         System.out.println("Now playing the song");
         mbox.playSong(mbox.getSongID(), mbox.getPremiumSong(), 2);
+        MusicBox premiumSong = new MusicBox("S77CU88", 'N', "Hhgoes", "Millie", 
+        "A lucky day", "City", "JYP Music", "Magic sound");
+        mbox.playSong(premiumSong.getSongID(), premiumSong.getPremiumSong(), 1);
         
-        // --- TODO
 
         /* Repeat the above code to create another object  
          * Pass different parameters to the MusicBox constructor, but initialise premiumSong to N and when calling the
